@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Batool Profile</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="img/images1.png" rel="icon">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  
+  <script>
+    function upper(){
+      var x = document.getElementById("fname");
+      x.value = x.value.toUpperCase();  
+    }
+    
+
+    function setNewImage(){
+      document.getElementById("img1").src="img/pic2.jpg"
+    }
+
+    function setOldImage(){
+      document.getElementById("img1").src="img/pic1.jpg"
+    }
+
+    function message(){
+      alert("reset the Message")
+    }
+  </script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">الصفحة الرئيسية</a></li> 
+          <li><a class="nav-link scrollto" href="#about">المعلومات الشخصية</a></li>
+          <li><a class="nav-link scrollto" href="#education">المؤهلات</a></li>
+          <li><a class="nav-link scrollto" href="#work">الأعمال</a></li>
+          <li><a class="nav-link scrollto" href="#asp">التطلعات</a></li>
+          <li><a class="nav-link scrollto" href="#contact">الاتصال</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="container">
+      <div class="row justify-content-between">
+        <div class="col-5 hero-img" data-aos="zoom-out" data-aos-delay="300"> <!--order-lg-2-->
+          <img id="img1" onmouseover="setNewImage()" onmouseout="setOldImage()" src="img/pic1.jpg" class="img-fluid animated" draggable="false">
+        </div>
+        <div id="intro" class="col-7"> 
+          <div data-aos="zoom-out">
+            <h4>أهلاً بكم في الموقع الإلكتروني الخاص بي، اسمي :</h4>
+            <h1>بتول القسوم</h1>
+            <h3>أنا مهندسة حواسيب</h3>
+            <a href="#about" class="btn" id="btn1">:نبذة عني <i class="bi bi-person-fill"></i></a>
+          </div>
+        </div>    
+      </div>
+    </div>
+    
+    <svg class="hero-waves"  viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+    </svg>
+
+  </section><!-- End Hero Section-->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <h1 class="heading"><span>نبذة</span> عني</h1>
+      <h2 id="Pi"> المعلومات الشخصية</h2>
+      
+      <div class="container">
+        <div class="row" id="row1">
+          <div class="col-md-2" data-aos="fade-right">
+            <h3>بتول القسوم </h3>
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"> <i class="bi bi-flag"></i> </div>
+              <p> سورية </p>
+            </div>
+          </div>
+
+          <div class="col-md-5 info" data-aos="fade-right">
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"> <i class="bi bi-envelope-at"> </i>  </div>
+              <p> batoolalasoum55@gmail.com </p>
+            </div>
+            <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+              <div class="icon"> <i class="bi bi-geo-alt"></i>  </div>
+              <p> سوريا، دمشق، صحنايا </p>
+            </div>        
+          </div>
+
+          <div class="col-md-3 info" data-aos="fade-right">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"> <i class="bi bi-telephone"></i>  </div>
+                <p> 0993666149 </p>
+              </div>
+
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"> <i class="bi bi-calendar-check"></i>  </div>
+                <p> 07/05/1998 </p>
+              </div>
+          </div>
+
+          <div class="col-md-2" data-aos="fade-right">
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon">  <i class="bi bi-gender-female"></i>  </div>
+                <p> أنثى </p>
+              </div>           
+              <div class="icon-box" data-aos="zoom-in" data-aos-delay="100">
+                <div class="icon"> <i class="bi bi-people"></i> </div>
+                <p> عزباء </p>
+              </div>
+            
+          </div>
+        </div>
+
+        <h2 id="lan">اللغات</h2>
+        <div class="row" id="row2"> 
+          <div class="col-7 info" data-aos="fade-right">
+            <p>اللغة الأم: <span>العربية</span></p>    
+          </div>
+
+          <div class="col-5 info" data-aos="fade-right">
+            <p>أخرى: <span>الأنجليزية</span></p> 
+          </div>       
+        </div>
+
+        <div class="row" id="row3">
+          <div class="col-md-8 col1" data-aos="fade-right">
+            <h2 id="ps">مهارات شخصية:</h2>
+            <div class="Pskills">
+              <p> <i class="bi bi-check2"></i> الصبر. </p>
+              <p> <i class="bi bi-check2"></i> التحدي والمنافسة. </p>
+              <p> <i class="bi bi-check2"></i> السرعة في التعلم. </p>
+              <p> <i class="bi bi-check2"></i> العمل تحت الضغط. </p>
+              <p> <i class="bi bi-check2"></i> الاستماع الجيد. </p>
+              <p> <i class="bi bi-check2"></i> حب التطوير والتحسين. </p>
+            </div>
+          </div>
+         
+          <div class="col-md-4 col2" data-aos="fade-right">
+            <h2 id="pc">مهارات الحاسوب:</h2>
+            <div class="skills">
+
+              <div class="skill-item">
+                <p>الكتابة الجيدة والسريعة </p>
+                <div class="progress">
+                  <span style="width: 0" data-width="90%"></span>
+                </div>
+                <p>90%</p>
+              </div>
+
+              <div class="skill-item">
+                <p>اللغات البرمجية:</p>
+                <div class="progress">
+                  <span style="width: 0" data-width="60%"></span>
+                </div>
+                <p>60%</p>        
+              </div>         
+
+              <div class="skill-item">
+                <p>PowerPoint</p>
+                <div class="progress">
+                  <span style="width: 0" data-width="85%"></span>
+                </div>
+                <p>85%</p>
+              </div>
+              
+              <div class="skill-item">
+                <p>Word</p>
+                <div class="progress">
+                  <span style="width: 0" data-width="90%"></span>
+                </div>
+                <p>90%</p>
+              </div>             
+          
+              <div class="skill-item">
+                <p>Excel</p>
+                <div class="progress">
+                  <span style="width: 0" data-width="75%"></span>
+                </div>
+                <p>75%</p>
+              </div>            
+              
+            </div>
+            
+          </div>
+        </div>
+        <a href="#"><button class="btn" id="down-btn">تحميل ال CV: <i class="bi bi-download"></i></button></a>
+      </div>
+      <svg class="hero-waves"  viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+      </svg>
+    </section><!-- End About Section -->
+    
+    <!-- ======= Qualification Education&TRAINING COURSES Section ======= -->   
+    <section id="education" class="education">
+      <h1 class="heading">مؤهلا<span>تي</span></h1>
+      <div class="box-container">
+        <div class="row">        
+          
+          <div class="col-3">
+            <div id="img">
+              <img src="img/img1.jpg" draggable="false">
+            </div>        
+          </div>    
+
+          <div class="col-8">
+            <h2>المؤهلات الأكاديمية</h2>
+            <div class="box1">
+              <i class="bi bi-mortarboard" id="iconedu"></i>
+              <h3> بكالوريوس في هندسة الحواسيب و الأتمتة </h3>
+              <p>جامعة دمشق</p>
+              <span> 2016 - 2022 </span>
+              <p>المعدل: جيد جداً 76.60% </p>
+              <p id="exp">مشروعي: دراسة وتصميم تحليلي لبناء وأتمتة
+                شبكة DMVPN من خلال لغة بايثون</p>
+            </div> 
+          </div>
+        </div><!-- end Education -->
+
+        <div class="row" id="row1">
+          <h2>الدورات التدريبية</h2>
+          <div class="row">
+            <div class="col-4" id="col1">
+                <div class="box" id="box">
+                    <i class="bi bi-stack"></i>
+                    <h3>CCNA</h3>
+                    <p>نادي الطلبة للغات والمعلوماتية المركزي</p>
+                    <span>2021</span>
+                  </div> 
+
+                <div class="box">
+                    <i class="bi bi-stack"></i>
+                    <h3>مقدمة في الروبوتيك</h3>
+                    <p>طموح</p>
+                    <span>2019</span>
+                  </div>
+            </div>              
+            <div class="col-4" id="col1">
+              <div class="box" id="box">
+                <i class="bi bi-stack"></i>
+                <h3> أساسيات البرمجة </h3>
+                <p>جامعة دمشق & أون لاين</p>
+                <span>2016-2022</span>
+              </div>
+
+              <div class="box">
+                <i class="bi bi-stack"></i>
+                <h3>لغة إنجليزية</h3>
+                <p>سوريين إيجابيين بالمطلق</p>
+                <span>2020</span>
+              </div>
+              
+              <div class="box">
+                <i class="bi bi-stack"></i>
+                <h3>مهارات التواصل</h3>
+                <p>جمعية نور للإغاثة والتنمية</p>
+                <span>2018</span>
+              </div>
+          </div>
+            <div class="col-4" id="col1">
+              <div class="box" id="box" >
+                <i class="bi bi-stack"></i>
+                <h3>web</h3>
+                <p>المنقذ</p>
+                <span>اتدرب حالياً</span>
+                </div> 
+              
+                <div class="box">
+                  <i class="bi bi-stack"></i>
+                  <h3>Network+</h3>
+                  <p>نادي الطلبة للغات والمعلوماتية المركزي</p>
+                  <span>2020</span>
+                </div> 
+
+                <div class="box">               
+                  <i class="bi bi-stack"></i>
+                  <h3>ICDL</h3>
+                  <p>جمعية نور للإغاثة والتنمية</p>
+                  <span>2018</span>             
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <svg class="hero-waves"  viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+      </svg>
+    </section><!-- end TRAINING COURSES  -->
+    <!-- end Qualification Education&TRAINING Section -->
+ 
+    <!-- ======= Work experience Section ======= -->
+    <section id="work" class="work">
+      <div class="container">
+        <h1 class="heading"><span> خبرات </span> العمل </h1>
+        <h2>الأعمال</h2>
+        <div class="row" data-aos="fade-left">
+
+          <div class="col-lg-4">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="img/work7.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>مبرمجة أون لاين</h4>  
+                <span>تصميم واجهات سطح المكتب باستخدام Python <br>
+                  مكتبة  Tkinter  بالإضافة إلى سكربتات Python.
+                </span> 
+              </div>
+            </div>
+            
+          </div>
+
+          <div class="col-lg-4 ">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="img/work3.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4> مدرسّة </h4>  
+                <span> متابعة للمرحلة الابتدائية. <br>
+                  رياضيات وفيزياء للصف السابع والثامن.
+                </span>
+              </div>
+              
+            </div>
+          </div>
+
+          <div class="col-lg-4">
+            <div class="member" data-aos="zoom-in" data-aos-delay="400">
+              <div class="pic"><img src="img/work12.jpg" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>كتابة</h4>
+                <span> كتابة نماذج أسئلة للمدرسين <br>
+                  ومحاضرات لمكتبة الجامعة مع فريق RBCs.</span>
+              </div>    
+            </div>
+          </div>      
+        </div>
+      </div>
+      <svg class="hero-waves"  viewBox="0 24 150 28 " preserveAspectRatio="none">
+        <defs>
+          <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+        </defs>
+        <g class="wave1">
+          <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+        </g>
+        <g class="wave2">
+          <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+        </g>
+      </svg>
+    </section><!-- End Work experience Section -->
+
+  <!-- ======= Aspiratios Section ======= -->
+  <section class="asp" id="asp">
+    <div class="container">
+      <h1 class="heading"><span> تطلعات </span> المستقبل </h1>
+      
+      <div class="row justify-content-between">
+        <div class="col-5 hero-img"  data-aos-delay="300">
+          <img src="img/future2.png" class="img-fluid animated" draggable="false">
+        </div>
+        
+        <div id="intro" class="col-7"> 
+          <div data-aos="zoom-out">
+            <p> عازمة ومصممة لأن اصبح  </p>
+            <p> مطورة واجهات أمامية محترفة </p>
+            <p> في المستقبل القريب، والمساهمة في</p>
+            <p> تقدم تقنيات الويب.</p>
+          </div>
+        </div>        
+      </div>
+    </div>
+    
+    <svg class="hero-waves"  viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+    </svg>
+
+  </section><!-- End Aspiratios section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <h1 class="heading"><span> التواصل </span> معي </h1>
+
+        <div class="row">
+          <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left" data-aos-delay="200">            
+            <form >
+              <div class="row">
+                <div class="col-6 form-group">
+                    <input type="text" name="name" class="form-control" id="fname" placeholder="اسمك" onblur="upper()" required>
+                </div>
+                  
+                <div class="col-6 form-group">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="الايميل الخاص بك" required>
+                </div>
+              </div>
+
+              <div class="form-group mt-3">
+                  <input type="text" onkeydown="color('white')" onkeyup="color('rgb(250, 183, 194)')" name="myInput" class="form-control" name="subject" id="subject" placeholder="الموضوع" required>       
+              </div>
+            </form>
+            <form onreset="message()">
+                <div class="form-group mt-3">
+                  <textarea class="form-control" name="message" rows="5" placeholder="الرسالة" required></textarea>
+                  <input id="reset" type="reset">
+                </div>
+            </form>
+            <a href="#"><button class="btn" id="down-btn"> إرسال الرسالة <i class="bi bi-send"></i></button></a>
+          </div> 
+          <div class="col-lg-4" data-aos="fade-right" data-aos-delay="100">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>              
+                <p> سوريا، دمشق، صحنايا </p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>              
+                <p>batoolalasoun55@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i id="call" class="bi bi-phone"></i>            
+                <p>+963 993 666 149</p>
+              </div>
+            </div>
+
+          </div>
+           
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Back To Top ======= -->
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
